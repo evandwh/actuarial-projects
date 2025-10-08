@@ -9,9 +9,9 @@ Each project connects to core actuarial concepts such as **loss modeling**, **ri
 
 ### 1️⃣ Monte Carlo Simulation of Aggregate Claims
 **Goal:** Estimate the total claim amount for an insurance portfolio using a compound distribution model.  
-- Frequency modeled as \( N \sim \text{Poisson}(\lambda) \)  
-- Severity modeled as \( X_i \sim \text{Lognormal}(\mu, \sigma) \)  
-- Aggregate loss \( S = \sum_{i=1}^N X_i \) simulated over thousands of trials  
+- Frequency modeled as N ~ Poisson(lambda)  
+- Severity modeled as X_i ~ Lognormal(mu, sigma)  
+- Aggregate loss S = sum X_i simulated over thousands of trials  
 
 **Key outputs:**
 - Distribution of total losses  
